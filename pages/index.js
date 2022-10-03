@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import profilePic from '../public/images/kyle_huffling_headshot.png'
+import profilePic from '../public/images/kyle_huffling_headshot.webp'
 import wordPress from '../public/images/WordPress-logo.png'
 import hubSpot from '../public/images/hubspot_logo.png'
 import heroBanner from '../public/images/fulls_stack_devleoper.webp'
@@ -123,15 +123,15 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="fixed_col pc_gray_bg pc_white neg_margin fixed_bottom">
-                                    <div className="pc_contact-child pc_space_evenly">
-                                        <div className="pc_logo-child">
-                                            <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
-                                        </div>
-                                        <div className="pc_logo-child">
-                                            <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div className="fixed_col pc_gray_bg pc_white neg_margin fixed_bottom">
+                            <div className="pc_contact-child pc_space_evenly">
+                                <div className="pc_logo-child">
+                                    <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
+                                </div>
+                                <div className="pc_logo-child">
+                                    <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -232,14 +232,14 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="fixed_col pc_gray_bg pc_white neg_margin fixed_bottom">
-                                        <div className="pc_contact-child pc_space_evenly">
-                                            <div className="pc_logo-child">
-                                                <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
-                                            </div>
-                                            <div className="pc_logo-child">
-                                                <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
-                                            </div>
+                                </div>
+                                <div className="fixed_col pc_white neg_margin fixed_bottom">
+                                    <div className="pc_contact-child pc_space_evenly">
+                                        <div className="pc_logo-child">
+                                            <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
+                                        </div>
+                                        <div className="pc_logo-child">
+                                            <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -256,9 +256,9 @@ export default function Home() {
                                             <div className="special_text">
                                                 <>{'<code>'}</>
                                                 <div className="typewriter_l1">I am a front end web developer
-                                        </div>
+                                                </div>
                                                 <div className="typewriter_l2 animation_delay">specializing in WordPress and Hubspot.
-                                        </div>
+                                                </div>
                                                 <>{'</code>'}</>
                                             </div>
                                             <div className="button_container hero_button"><a className="pc_button" href="images/resume.pdf" traget="_blank">Download Resume</a></div>
@@ -272,19 +272,19 @@ export default function Home() {
                                         <div className="special_number">3+</div>
                                         <div className="special_number_text">
                                             Years of professional <br /> Web Development
-                                </div>
+                                        </div>
                                     </div>
                                     <div className="special_number_wrapper">
                                         <div className="special_number">3+</div>
                                         <div className="special_number_text">
                                             Years of professional <br /> Web Development
-                                </div>
+                                        </div>
                                     </div>
                                     <div className="special_number_wrapper">
                                         <div className="special_number">3+</div>
                                         <div className="special_number_text">
                                             Years of professional <br /> Web Development
-                                </div>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
@@ -295,60 +295,60 @@ export default function Home() {
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="skills_card bg_white pc_box_shadow">
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="skills_card bg_white pc_box_shadow">
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="skills_card bg_white pc_box_shadow">
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="skills_card bg_white pc_box_shadow">
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="skills_card bg_white pc_box_shadow">
                                         <div className="skills_text_wrapper">
                                             <h3>
                                                 Theme Development
-                                    </h3>
+                                            </h3>
                                             <p>
                                                 I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.
-                                    </p>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -364,7 +364,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -374,7 +374,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -386,7 +386,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -396,7 +396,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -408,7 +408,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -418,7 +418,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -430,7 +430,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -440,7 +440,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -452,7 +452,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -462,7 +462,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -474,7 +474,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -484,7 +484,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -499,7 +499,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -509,7 +509,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -519,7 +519,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -529,7 +529,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -539,7 +539,7 @@ export default function Home() {
                                                 <div className="history_col-1">
                                                     <h3>
                                                         Precision Creative
-                                            </h3>
+                                                    </h3>
                                                     <div className="job_title">Director of Web Development</div>
                                                 </div>
                                                 <div className="history_col-2">
@@ -549,7 +549,7 @@ export default function Home() {
                                             <p>
                                                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                                                 only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    </p>
+                                            </p>
 
                                         </div>
                                     </div>
