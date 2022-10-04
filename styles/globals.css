@@ -270,6 +270,7 @@
             max-width: 100%;
             margin-left: 1rem;
             margin: 0 2rem;
+            position: relative;
         }
 
         .fixed {
@@ -466,8 +467,7 @@
             margin-bottom: 10px;
         }
 
-        .skills_section h2,
-        .education_section h2 {
+        section h2 {
             margin-bottom: 3rem;
         }
 
@@ -482,20 +482,27 @@
             margin-right: 1rem;
         }
 
-        .history_section {
+        .history_section>.pc_row {
             padding-left: 20px;
             border-left: solid 8px #C4C4C4;
             margin-bottom: 6rem;
+            position: relative;
         }
 
-        .history_first:before {
+        .history_section>.pc_row .skills_card:last-child {
+            margin-bottom: 0;
+        }
+
+
+        .history_section>.pc_row:before {
             content: '';
             width: 30px;
             height: 30px;
             border: solid #F46258 5px;
-            position: absolute;
-            left: -40px;
-            top: 40%;
+            position: sticky;
+            top: 6rem;
+            margin-top: -2px;
+            margin-left: -39px;
             border-radius: 50%;
             background-color: #C4C4C4;
             animation: pulse 2s infinite;
