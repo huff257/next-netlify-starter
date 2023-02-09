@@ -499,7 +499,7 @@
 =======
 
 
-        .history_section>.pc_row:before {
+      /*  .history_section>.pc_row:before {
 >>>>>>> ac221fe80f8db8195d3de6cb9208d33ce9a1c329
             content: '';
             width: 30px;
@@ -512,13 +512,10 @@
             border-radius: 50%;
             background-color: #C4C4C4;
             animation: pulse 2s infinite;
-<<<<<<< HEAD
         }*/
         
-=======
-        }
 
->>>>>>> ac221fe80f8db8195d3de6cb9208d33ce9a1c329
+
         .history_section>.pc_row:first-child .history_first:before {
             top: -5px;
         }
