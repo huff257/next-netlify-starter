@@ -57,10 +57,20 @@ export default function SideBar() {
                 <div className="pc_contact-child pc_flex_col center_text_col">
                   <h6>hubl</h6>
                   <h6>html</h6>
-                  <h6>bash</h6>
                 </div>
               </div>
             </div>
+            </div>
+            <div className="fixed_col">
+            <h5 className="side_col_heading">CMSs/Frameworks</h5>
+            <div className="pc_contact-child pc_space_evenly">
+              <div className="pc_row">
+                <div className="pc_col-12">
+                  <h6>React, WordPress, HubSpot</h6>
+                </div>
+            </div>
+          </div>
+          </div>
             <div className="fixed_col" >
               <h5 className="side_col_heading">Technologies</h5>
               <div className="pc_row">
@@ -83,16 +93,6 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="fixed_col">
-            <h5 className="side_col_heading">CMSs/Frameworks</h5>
-            <div className="pc_contact-child pc_space_evenly">
-              <div className="pc_row">
-                <div className="pc_col-12">
-                  <h6>React, WordPress, HubSpot</h6>
-                </div>
-            </div>
-          </div>
-          </div>
           </div>
         </div>
         <div className="fixed_col pc_white neg_margin fixed_bottom">
@@ -106,6 +106,5 @@ export default function SideBar() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
