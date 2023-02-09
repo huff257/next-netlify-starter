@@ -492,15 +492,11 @@
         .history_section>.pc_row .skills_card:last-child {
             margin-bottom: 0;
         }
-<<<<<<< HEAD
-        
-        /*
-        .history_first:before {
-=======
+
 
 
       /*  .history_section>.pc_row:before {
->>>>>>> ac221fe80f8db8195d3de6cb9208d33ce9a1c329
+
             content: '';
             width: 30px;
             height: 30px;
