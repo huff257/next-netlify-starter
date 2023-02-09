@@ -42,19 +42,6 @@ export default function SideBar() {
               </div>
             </div>
           </div>
-          <div className="fixed_col">
-            <h5 className="side_col_heading">CMSs</h5>
-            <div className="pc_contact-child pc_space_evenly">
-              <div className="pc_logo-child">
-                <img src={wordPress.src} />
-                <h6>WordPress</h6>
-              </div>
-              <div className="pc_logo-child">
-                <img src={hubSpot.src} />
-                <h6>Hubspot</h6>
-              </div>
-            </div>
-          </div>
           <div className="fixed_col contact">
             <h5 className="side_col_heading">Languages</h5>
             <div className="pc_row">
@@ -96,6 +83,16 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
+            <div className="fixed_col">
+            <h5 className="side_col_heading">CMSs/Frameworks</h5>
+            <div className="pc_contact-child pc_space_evenly">
+              <div className="pc_row">
+                <div className="pc_col-12">
+                  <h6>React, WordPress, HubSpot</h6>
+                </div>
+            </div>
+          </div>
+          </div>
           </div>
         </div>
         <div className="fixed_col pc_white neg_margin fixed_bottom">
