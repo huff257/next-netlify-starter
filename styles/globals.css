@@ -465,10 +465,11 @@
         
         .history_section {
             padding-left: 20px;
-            border-left: solid 8px #C4C4C4;
+            /*border-left: solid 8px #C4C4C4;*/
             margin-bottom: 6rem;
         }
         
+        /*
         .history_first:before {
             content: '';
             width: 30px;
@@ -480,7 +481,7 @@
             border-radius: 50%;
             background-color: #C4C4C4;
             animation: pulse 2s infinite;
-        }
+        }*/
         
         .history_section>.pc_row:first-child .history_first:before {
             top: -5px;
