@@ -93,16 +93,16 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-                    <div className="fixed_col pc_white neg_margin fixed_bottom">
-          <div className="pc_contact-child pc_space_evenly">
-            <div className="pc_logo-child">
-              <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
-            </div>
-            <div className="pc_logo-child">
-              <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
-            </div>
           </div>
-        </div>
+            <div className="fixed_col pc_white neg_margin fixed_bottom">
+              <div className="pc_contact-child pc_space_evenly">
+                <div className="pc_logo-child">
+                  <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
+                </div>
+                <div className="pc_logo-child">
+                  <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
+                </div>
+            </div>
           </div>
         </div>
       </div>
