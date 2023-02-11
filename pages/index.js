@@ -35,11 +35,11 @@ export default function Home() {
                                     },
                                     card2: {
                                         Title: 'SEO',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Description: 'As Google continues to improve its ranking algorithms I adhere to their recommended best practices. I pay attention to the details so that my sites meet and exceed performace standards, are mobile friendly, and are friendly to users of all different backgrounds and abilities.'
                                     },
                                     card3: {
                                         Title: 'Project Management',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Description: 'I enjoy working with people and have demonstrated the ability to lead teams, meet deadlines, and keep clients happy.'
                                     }
                                 }} />
                             <Cards
@@ -51,113 +51,66 @@ export default function Home() {
                                         Title: 'Precision creative',
                                         Subtitle: 'Director of Web Development',
                                         Date: 'July 2018 - Current',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Description: 'Built and maintained over one hundred websites. Promoted to Director of Web Development after one year. Led a team of developers, content creators, and graphic designers. Overhauled the entire development process transitioning the company away from using prebuilt templates to building custom websites resulting in better site speed and performance. Implemented a structured client onboarding and communication process resulting in improved customer satisfaction and quicker project turnaround times.'
                                     },
                                     histCard2: {
-                                        Title: 'Precision creative',
-                                        Subtitle: 'Director of Web Development',
-                                        Date: 'July 2018 - Current',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Title: 'Hughes Media',
+                                        Subtitle: 'Web Developer',
+                                        Date: 'November 2018 - July 2019',
+                                        Description: 'Provided in house web development capabilities for a small marketing firm. Collaborated with graphic designers and project managers in order to deliver mobile responsive and SEO friendly websites to exact specifications.'
                                     },
                                     histCard3: {
-                                        Title: 'Precision creative',
-                                        Subtitle: 'Director of Web Development',
-                                        Date: 'July 2018 - Current',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Title: 'Project Manager/Web Developer Developer',
+                                        Subtitle: 'Rockhopper Tech',
+                                        Date: 'January 2018 - July 2019',
+                                        Description: 'Served primarily as project manager for a medium sized software development company with some duties as a developer. Responsible for ensuring application builds and software enhancements progress as quickly as possible while meeting customer requirements and budgetary constraints.'
+                                    },
+                                    histCard4: {
+                                        Title: 'Lead Business Systems',
+                                        Subtitle: 'Mississippi Department of Education (MDE)',
+                                        Date: 'May 2016 - Aug 2018',
+                                        Description: 'Tracked performance and success metrics for all Mississippi public school students. Created ad hoc reports for MDE Leadership, the federal government, and the public, describing statewide student assessment and demographic data. Rebuilt, expanded, and improved legacy reports and developed new reports in support of educators and decision makers. Merged two salaried positions into one by automating recurring tasks and requirements. Regularly wrote complex SQL queries and procedures using Oracle developer. Developed expertise in data cleaning, reformatting, and restructuring large data sets into easily comprehensible information. Promoted to Lead Business Systems Analyst after one year.'
+                                    },
+                                    histCard5: {
+                                        Title: 'Transportation Officer ',
+                                        Subtitle: 'United States Army Reserve',
+                                        Date: 'March 2005 - August 2013',
+                                        Description: 'Served in a variety of roles from ranks E-2 (Private 2nd Class) through O-2 (First Lieutenant) excelling in all positions. Deployed to Kandahar, Afghanistan from March 2011 to January 2012. Served as Container Management OIC within a Battalion forward Operations Cell. Led a team of seven transportation soldiers and was responsible for identification and reporting of frustrated cargo throughout Afghanistan.'
                                     },
                                 }} />
-                            <section className="history_title">
-                                <h2>Work History</h2>
-                            </section>
-                            <section className="history_section">
-                                <div className="pc_row">
-                                    <div className="bg_white card_margin pc_box_shadow">
-                                        <div className="history_card history_first">
-                                            <div className="pc_row">
-                                                <div className="history_col-1">
-                                                    <h3>
-                                                        Precision Creative
-                                                    </h3>
-                                                    <div className="job_title">Director of Web Development</div>
-                                                </div>
-                                                <div className="history_col-2">
-                                                    <div className="history_date">July 2018 - Current</div>
-                                                </div>
-                                            </div>
-                                            <p>
-                                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                            </p>
+                            <Cards
+                                title="My Education"
+                                size='48%'
+                                addClass='education_section'
+                                content={{
+                                    edCard1: {
+                                        Title: 'M.S. Cognitive And Behavioral Sciences',
+                                        Subtitle: 'Auburn University ',
+                                        Date: 'Graduated 2015',
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section className="education_section">
-                                <h2>My Education</h2>
-                                <div className="pc_row_ed">
-                                    <div className="bg_white card_margin pc_box_shadow">
-                                        <div className="history_card">
-                                            <div className="pc_row">
-                                                <div className="history_col-1">
-                                                    <h3>
-                                                        Precision Creative
-                                                    </h3>
-                                                    <div className="job_title">Director of Web Development</div>
-                                                </div>
-                                                <div className="history_col-2">
-                                                    <div className="history_date">July 2018 - Current</div>
-                                                </div>
-                                            </div>
-                                            <p>
-                                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                    <div className="bg_white card_margin pc_box_shadow">
-                                        <div className="history_card">
-                                            <div className="pc_row">
-                                                <div className="history_col-1">
-                                                    <h3>
-                                                        Precision Creative
-                                                    </h3>
-                                                    <div className="job_title">Director of Web Development</div>
-                                                </div>
-                                                <div className="history_col-2">
-                                                    <div className="history_date">July 2018 - Current</div>
-                                                </div>
-                                            </div>
-                                            <p>
-                                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                    <div className="bg_white card_margin pc_box_shadow">
-                                        <div className="history_card">
-                                            <div className="pc_row">
-                                                <div className="history_col-1">
-                                                    <h3>
-                                                        Precision Creative
-                                                    </h3>
-                                                    <div className="job_title">Director of Web Development</div>
-                                                </div>
-                                                <div className="history_col-2">
-                                                    <div className="history_date">July 2018 - Current</div>
-                                                </div>
-                                            </div>
-                                            <p>
-                                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+                                    },
+                                    edCard2: {
+                                        Title: 'B.S Pyschology',
+                                        Subtitle: 'University of South Carolina Upstate',
+                                        Date: 'Graduated 2009',
+                                    },
+                                    edCard3: {
+                                        Title: 'HubSpot CMS Developer Cert',
+                                        Subtitle: 'HubSpot Academy',
+                                        Date: '2021',
+                                    },
+                                    edCard4: {
+                                        Title: 'Lead Business Systems',
+                                        Subtitle: 'Mississippi Department of Education (MDE)',
+                                        Date: 'May 2016 - Aug 2018',
+                                        Description: 'Tracked performance and success metrics for all Mississippi public school students. Created ad hoc reports for MDE Leadership, the federal government, and the public, describing statewide student assessment and demographic data. Rebuilt, expanded, and improved legacy reports and developed new reports in support of educators and decision makers. Merged two salaried positions into one by automating recurring tasks and requirements. Regularly wrote complex SQL queries and procedures using Oracle developer. Developed expertise in data cleaning, reformatting, and restructuring large data sets into easily comprehensible information. Promoted to Lead Business Systems Analyst after one year.'
+                                    },
+                                    histCard5: {
+                                        Title: 'JavaScript Algorithms and Data Structures Certification',
+                                        Subtitle: 'FreeCodeCamp',
+                                        Date: '2022',
+                                    },
+                                }} />
                         </div>
                     </div>
                 </div>

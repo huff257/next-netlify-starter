@@ -11,10 +11,9 @@ export default function Hero() {
             <h1>Kyle Huffling</h1>
             <div className="special_text">
               <>{'<code>'}</>
-              <div className="typewriter_l1">I am a front end web developer
-              </div>
-              <div className="typewriter_l2 animation_delay">specializing in WordPress and Hubspot.
-              </div>
+              <div class="typewriter_l1">I am a client-focused developer who</div>
+              <div class="typewriter_l2">builds fully optimized and easily</div>
+              <div class="typewriter_l3 animation_delay">maintained websites.</div>
               <>{'</code>'}</>
             </div>
             <div className="button_container hero_button"><a className="pc_button" href="images/resume.pdf" traget="_blank">Download Resume</a></div>
