@@ -100,12 +100,6 @@ export default function Home() {
                                         Date: '2021',
                                     },
                                     edCard4: {
-                                        Title: 'Lead Business Systems',
-                                        Subtitle: 'Mississippi Department of Education (MDE)',
-                                        Date: 'May 2016 - Aug 2018',
-                                        Description: 'Tracked performance and success metrics for all Mississippi public school students. Created ad hoc reports for MDE Leadership, the federal government, and the public, describing statewide student assessment and demographic data. Rebuilt, expanded, and improved legacy reports and developed new reports in support of educators and decision makers. Merged two salaried positions into one by automating recurring tasks and requirements. Regularly wrote complex SQL queries and procedures using Oracle developer. Developed expertise in data cleaning, reformatting, and restructuring large data sets into easily comprehensible information. Promoted to Lead Business Systems Analyst after one year.'
-                                    },
-                                    histCard5: {
                                         Title: 'JavaScript Algorithms and Data Structures Certification',
                                         Subtitle: 'FreeCodeCamp',
                                         Date: '2022',
