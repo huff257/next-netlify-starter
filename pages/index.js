@@ -95,7 +95,7 @@ export default function Home() {
                                         Date: 'Graduated 2009',
                                     },
                                     edCard3: {
-                                        Title: 'HubSpot CMS Developer Cert',
+                                        Title: 'HubSpot CMS Developer Certification',
                                         Subtitle: 'HubSpot Academy',
                                         Date: '2021',
                                     },

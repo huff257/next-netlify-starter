@@ -46,20 +46,20 @@ export default function SideBar() {
               <h5 className="side_col_heading">Technologies</h5>
               <div className="pc_row">
                 <div className="pc_col-12">
-                  <h6>javascript, php, sql, html, css</h6>
+                  <h6>Javascript, PHP, SQL, HTML, CSS</h6>
                 </div>
               </div>
               <div className="pc_row">
                 <div className="pc_col-12">
-                  <h6>bootstrap, sass, grid, flexbox</h6>
+                  <h6>Bootstrap, Sass, Grid, Flexbox</h6>
                 </div>
               </div>
               <div className="pc_row">
                 <div className="pc_col-12">
-                  <h6>jquery, ajax, json </h6>
+                  <h6>jQuery, Ajax, JSON</h6>
                 </div>
                 <div className="pc_col-12">
-                  <h6>react, nuxt, vue, github</h6>
+                  <h6>React, Nuxt, Vue, Github</h6>
                 </div>
                 <div className="pc_col-12">
                   <h6>hubl</h6>
