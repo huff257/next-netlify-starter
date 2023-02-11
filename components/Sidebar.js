@@ -26,7 +26,7 @@ export default function SideBar() {
             <div className="pc_contact-child">
               <h5>Phone:</h5>
               <div>
-                <p><a href="8643604227">(864) 360-4227</a></p>
+                <p><a href="tel: 8643604227">(864) 360-4227</a></p>
               </div>
             </div>
             <div className="pc_contact-child">
@@ -42,24 +42,32 @@ export default function SideBar() {
               </div>
             </div>
           </div>
-          <div className="fixed_col contact">
-            <h5 className="side_col_heading">Languages</h5>
-            <div className="pc_row">
-              <div className="pc_col-6">
-                <div className="pc_contact-child pc_flex_col center_text_col">
-                  <h6>sql</h6>
-                  <h6>r</h6>
-                  <h6>php</h6>
-                  <h6>javascript</h6>
+            <div className="fixed_col" >
+              <h5 className="side_col_heading">Technologies</h5>
+              <div className="pc_row">
+                <div className="pc_col-12">
+                  <h6>javascript, php, sql, html, css</h6>
                 </div>
               </div>
-              <div className="pc_col-6">
-                <div className="pc_contact-child pc_flex_col center_text_col">
+              <div className="pc_row">
+                <div className="pc_col-12">
+                  <h6>bootstrap, sass, grid, flexbox</h6>
+                </div>
+              </div>
+              <div className="pc_row">
+                <div className="pc_col-12">
+                  <h6>jquery, ajax, json </h6>
+                </div>
+                <div className="pc_col-12">
+                  <h6>react, nuxt, vue, github</h6>
+                </div>
+                <div className="pc_col-12">
                   <h6>hubl</h6>
-                  <h6>html</h6>
+                </div>
+                <div className="pc_col-12">
+                  <h6>excel, vba</h6>
                 </div>
               </div>
-            </div>
             </div>
             <div className="fixed_col">
             <h5 className="side_col_heading">CMSs/Frameworks</h5>
@@ -71,28 +79,6 @@ export default function SideBar() {
             </div>
           </div>
           </div>
-            <div className="fixed_col" >
-              <h5 className="side_col_heading">Technologies</h5>
-              <div className="pc_row">
-                <div className="pc_col-12">
-                  <h6>bootstrap, sass, grid, flexbox</h6>
-                </div>
-              </div>
-              <div className="pc_row">
-                <div className="pc_col-12">
-                  <h6>jquery, ajax, json </h6>
-                </div>
-                <div className="pc_col-12">
-                  <h6>nuxt, vue, github</h6>
-                </div>
-                <div className="pc_col-12">
-                  <h6>woocommerce, wpbakery</h6>
-                </div>
-                <div className="pc_col-12">
-                  <h6>excel, vba</h6>
-                </div>
-              </div>
-            </div>
           </div>
             <div className="fixed_col pc_white neg_margin fixed_bottom">
               <div className="pc_contact-child pc_space_evenly">
