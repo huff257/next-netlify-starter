@@ -1,6 +1,4 @@
 import profilePic from '../public/images/kyle_huffling_headshot.webp'
-import wordPress from '../public/images/WordPress-logo.png'
-import hubSpot from '../public/images/hubspot_logo.png'
 
 export default function SideBar() {
   return (
