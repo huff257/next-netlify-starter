@@ -1,6 +1,7 @@
 import profilePic from '../public/images/kyle_huffling_headshot.webp'
 import wordPress from '../public/images/WordPress-logo.png'
 import hubSpot from '../public/images/hubspot_logo.png'
+import resume from '../public/images/STEVENKYLE_HUFFLING.pdf'
 
 export default function SideBar() {
   return (
@@ -86,7 +87,7 @@ export default function SideBar() {
                   <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
                 </div>
                 <div className="pc_logo-child">
-                  <h6><a href="/assets/resume.pdf" target="_blank">Resume PDF</a></h6>
+                  <h6><a href={resume.src} target="_blank">Resume PDF</a></h6>
                 </div>
             </div>
           </div>
