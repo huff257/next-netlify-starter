@@ -87,23 +87,22 @@ export default function Home() {
                                     edCard1: {
                                         Title: 'M.S. Cognitive And Behavioral Sciences',
                                         Subtitle: 'Auburn University ',
-                                        Date: 'Graduated 2015',
-
+                                        Date: 'May 2015',
                                     },
                                     edCard2: {
                                         Title: 'B.S Pyschology',
                                         Subtitle: 'University of South Carolina Upstate',
-                                        Date: 'Graduated 2009',
+                                        Date: 'December 2009',
                                     },
                                     edCard3: {
                                         Title: 'HubSpot CMS Developer Certification',
                                         Subtitle: 'HubSpot Academy',
-                                        Date: '2021',
+                                        Date: 'July 2021',
                                     },
                                     edCard4: {
                                         Title: 'JavaScript Algorithms and Data Structures Certification',
                                         Subtitle: 'FreeCodeCamp',
-                                        Date: '2022',
+                                        Date: 'November 2022',
                                     },
                                 }} />
                         </div>

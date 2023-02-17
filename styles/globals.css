@@ -99,7 +99,7 @@
 
         section {
             margin-bottom: 4rem;
-            padding-left: 30px;
+            padding-left: 0px;
         }
 
         .content_wrapper {
@@ -394,6 +394,10 @@
             height: 400px;
         }
 
+        .pc_hero_text{
+            padding-left: 30px;
+        } 
+
         .special_text {
             font-family: 'Courier Prime', monospace;
             font-style: italic;
@@ -462,7 +466,7 @@
         }
 
         .skills_card {
-            padding: 20px 5px 20px 15px;
+            padding: 25px;
             margin-right: 1rem;
             margin-bottom: 2rem;
         }
@@ -477,7 +481,7 @@
 
         .history_card {
             flex: 0 0 100%;
-            padding: 20px 15px 20px 15px;
+            padding: 25px;
         }
 
         .education_section .card_margin {
