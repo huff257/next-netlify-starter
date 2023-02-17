@@ -15,6 +15,7 @@ export default function Home() {
             <Head>
                 <title>Kyle Huffling - Portfolio</title>
                 <link rel="icon" href={favicon.src} />
+                <meta name="Description" content="Client-focused developer who builds well optimized and easily maintained websites."/>
             </Head>
             <div className="content_wrapper">
                 <Mobile_Menu />
@@ -39,7 +40,7 @@ export default function Home() {
                                     },
                                     card3: {
                                         Title: 'Project Management',
-                                        Description: 'I enjoy working with people and have demonstrated the ability to lead teams, meet deadlines, and keep clients happy.'
+                                        Description: 'I enjoy working with people and have demonstrated the ability to lead teams, meet deadlines, and keep clients happy. As a former Officer in the US Army I am an experienced and well-trained leader who is able to adapt to the people around me.'
                                     }
                                 }} />
                             <Cards

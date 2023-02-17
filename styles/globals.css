@@ -362,7 +362,7 @@
         }
 
         .fixed_bottom {
-            background-color: #8E8E93;
+            background-color: #777777;
             border: none;
             box-shadow: 0px -2px 3px 0 rgb(15 15 20 / 0%);
             position: absolute;
@@ -487,7 +487,7 @@
         }
 
         .history_section>.pc_row {
-            padding-left: 20px;
+            padding-left: 0px;
             /*border-left: solid 8px #C4C4C4;*/
             margin-bottom: 6rem;
             position: relative;
@@ -496,7 +496,13 @@
         .history_section>.pc_row .skills_card:last-child {
             margin-bottom: 0;
         }
-
+        .history_section h3, .education_section h3{
+            margin-bottom: 0;
+        }
+        .history_section h4, .education_section h4{
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
 
 
       /*  .history_section>.pc_row:before {
@@ -569,9 +575,10 @@
 
             .education_section .card_margin,
             .skills_card {
-                flex: 0 0 100%;
-                max-width: 100%;
-                margin-right: calc(3% + 1rem);
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: calc(3% + 1rem) !important;
+                padding: 20px;
             }
         }
 

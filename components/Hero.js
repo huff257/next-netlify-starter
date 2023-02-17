@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="special_text">
               <>{'<code>'}</>
               <div class="typewriter_l1">I am a client-focused developer who</div>
-              <div class="typewriter_l2">builds fully optimized and easily</div>
+              <div class="typewriter_l2">builds well optimized and easily</div>
               <div class="typewriter_l3 animation_delay">maintained websites.</div>
               <>{'</code>'}</>
             </div>
