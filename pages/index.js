@@ -112,3 +112,10 @@ export default function Home() {
         </div>
     )
 }
+
+<Script id="show-menu" strategy="afterInteractive">
+  {`function openMenu() {
+        var element = document.getElementById("mobile-btn");
+        element.classList.toggle("open");
+}`}
+</Script>

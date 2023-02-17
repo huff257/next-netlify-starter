@@ -1,5 +1,4 @@
 import heroBanner from '../public/images/fulls_stack_devleoper.webp'
-import resume from '../public/images/STEVENKYLE_HUFFLING.pdf'
 
 
 export default function Hero() {
@@ -18,7 +17,7 @@ export default function Hero() {
               <div class="typewriter_l3 animation_delay">maintained websites.</div>
               <>{'</code>'}</>
             </div>
-            <div className="button_container hero_button"><a className="pc_button" href={resume.src} traget="_blank">Download Resume</a></div>
+            <div className="button_container hero_button"><a className="pc_button" href="/public/images/STEVENKYLE_HUFFLING.pdf" traget="_blank">Download Resume</a></div>
           </div>
         </div>
       </div>
