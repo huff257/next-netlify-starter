@@ -486,6 +486,10 @@
             margin-right: 1rem;
         }
 
+        .justify-spc-btwn{
+            justify-content: space-between;
+        }
+
         .history_section>.pc_row {
             padding-left: 0px;
             /*border-left: solid 8px #C4C4C4;*/
@@ -503,24 +507,6 @@
             margin-bottom: 0.5rem;
             font-weight: 300;
         }
-
-
-      /*  .history_section>.pc_row:before {
-
-            content: '';
-            width: 30px;
-            height: 30px;
-            border: solid #F46258 5px;
-            position: sticky;
-            top: 6rem;
-            margin-top: -2px;
-            margin-left: -39px;
-            border-radius: 50%;
-            background-color: #C4C4C4;
-            animation: pulse 2s infinite;
-        }*/
-        
-
 
         .history_section>.pc_row:first-child .history_first:before {
             top: -5px;
@@ -548,16 +534,6 @@
             margin-bottom: 3rem;
         }
 
-        .history_col-1 {
-            flex: 0 0 60%;
-        }
-
-        .history_col-2 {
-            flex: 0 0 100%;
-            max-width: 40%;
-            text-align: right;
-        }
-
         .history_date {
             background-color: rgba(30, 30, 40, 0.5);
             color: #fff;
@@ -571,6 +547,10 @@
             margin-bottom: 5px;
         }
 
+        .skill_col-1, .skill_col-2{
+            max-width: 50%;
+        }
+
         @media only screen and (max-width: 991px) {
 
             .education_section .card_margin,
@@ -579,6 +559,17 @@
                 max-width: 100% !important;
                 margin-right: calc(3% + 1rem) !important;
                 padding: 20px;
+            }
+            .history_date {
+                background-color: #ffff;
+                color: #000000a6;
+                width: max-content;
+                margin-left: 0;
+                margin-bottom: 15px;
+                padding: 0;
+            }
+            .skill_col-1, .skill_col-2{
+                max-width: 100%;
             }
         }
 
@@ -600,15 +591,6 @@
             .card_margin,
             .skills_card {
                 margin-right: 0;
-            }
-
-            .history_date {
-                background-color: #ffff;
-                color: #000000a6;
-                width: max-content;
-                margin-left: 0;
-                margin-bottom: 15px;
-                padding: 0;
             }
 
             .history_col-1,

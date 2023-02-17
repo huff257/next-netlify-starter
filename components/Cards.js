@@ -10,7 +10,7 @@ export default function Cards({ title, size, addClass, content }) {
             return (
               <div className="skills_card bg_white pc_box_shadow" style={{ flexGrow: 0, flexShrink: 0, flexBasis: size, maxWidth: size }}>
                 <div className="skills_text_wrapper">
-                  <div class="pc_row">
+                  <div class="pc_row justify-spc-btwn">
                     <div class="skill_col-1">
                       <h3>{key['Title']}</h3>
                       <h4>{key['Subtitle']}</h4>
