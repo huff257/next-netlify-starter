@@ -1,6 +1,7 @@
 const openMenu = () => {
   var element = document.getElementById("mobile-btn");
   element.classList.toggle("open");
+  console.log('hello')
 }
 
 export default function Mobile_Menu() {
