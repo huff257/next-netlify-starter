@@ -4,7 +4,6 @@ import Sidebar from '@components/Sidebar'
 import Hero from '@components/Hero'
 import Experience from '@components/Experience'
 import Cards from '@components/Cards'
-import menuJS from '@js/menu.js'
 
 import favicon from '../public/images/icons8-developer-64.png'
 
