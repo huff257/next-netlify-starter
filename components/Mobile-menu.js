@@ -7,7 +7,7 @@ export default function Mobile_Menu() {
   return (
     <div className="mobile-menu bg_white pc_box_shadow">
       <div id="mobile-btn">
-        <div id="nav-icon" className="btn-spans nav-icon" onclick={openMenu}>
+        <div id="nav-icon" className="btn-spans nav-icon" onClick={openMenu}>
           <span></span>
           <span></span>
           <span></span>
