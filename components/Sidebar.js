@@ -1,9 +1,15 @@
 import profilePic from '../public/images/kyle_huffling_headshot.webp'
 
+const closeMenu = () => {
+  let element = document.getElementById("mobile-btn");
+  element.classList.remove("open");
+}
+
 export default function SideBar() {
   return (
     <div className="sidebar">
       <div className="fixed pc_box_shadow">
+        <div className="close-btn" onClick={closeMenu}></div>
         <div className="fixed_col pc_center_align bg_white neg_margin intro">
           <div className="pc_img_wrapper">
             <img src={profilePic.src} />
@@ -84,7 +90,7 @@ export default function SideBar() {
                   <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
                 </div>
                 <div className="pc_logo-child">
-                  <h6><a href="/public/images/STEVENKYLE_HUFFLING.pdf" target="_blank">Resume PDF</a></h6>
+                  <h6><a href="/assets/PDFs/Kyle_Huffling_Resume.pdf" target="_blank">Resume PDF</a></h6>
                 </div>
             </div>
           </div>

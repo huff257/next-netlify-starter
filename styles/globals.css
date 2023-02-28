@@ -251,6 +251,23 @@
             display: none;
         }
 
+        .close-btn{
+            display: none;
+        }
+
+        .open .close-btn{
+            display: block;
+            background-image: url('/images/close_btn.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer; 
+        }
+
         @media only screen and (max-width: 1200px) {
             .sidebar {
                 display: none;
@@ -258,6 +275,17 @@
 
             .menu_bar {
                 display: block;
+            }
+
+            .open .sidebar{
+                display: block;
+            }
+ 
+            .open .fixed {
+                position: absolute;
+                height: 100%;
+                top: 0;
+                left: 0;
             }
         }
 
@@ -636,6 +664,10 @@
 
             .main_content {
                 margin: 1rem 0 0 0;
+            }
+            .special_section .pc_space_evenly {
+                justify-content: flex-start;
+                gap: 2rem 1rem;
             }
         }
 

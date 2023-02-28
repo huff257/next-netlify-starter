@@ -1,7 +1,8 @@
+import Sidebar from '@components/Sidebar'
+
 const openMenu = () => {
-  var element = document.getElementById("mobile-btn");
-  element.classList.toggle("open");
-  console.log('hello')
+  let element = document.getElementById("mobile-btn");
+  element.classList.add("open");
 }
 
 export default function Mobile_Menu() {
@@ -14,6 +15,7 @@ export default function Mobile_Menu() {
           <span></span>
           <span></span>
         </div>
+        <Sidebar />
       </div>
     </div>
   )
