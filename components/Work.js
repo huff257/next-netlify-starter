@@ -18,7 +18,10 @@ export default function Work({ title, size, addClass, content }) {
                           <img className="static" src={key['Placeholder']}></img>
                         </div>
                         <div className="gif_wrapper">
-                          <img className="gif" src={key['Gif']}></img>
+                          <video
+                            autoPlay loop muted playsInline>
+                            <source src={key['Mp4']} type="video/mp4" />                         
+                          </video>
                         </div>
                       </div>
                     </div>

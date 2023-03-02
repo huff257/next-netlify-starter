@@ -8,11 +8,9 @@ import Work from '@components/Work'
 
 import favicon from '../public/images/icons8-developer-64.png'
 
-import mockupGif1 from '../public/gifs/portfolio_1.gif'
 import portfolio_placeholder1 from '../public/images/portfolio_placeholder_1.webp'
 import mockupGif2 from '../public/gifs/portfolio_2.gif'
 import portfolio_placeholder2 from '../public/images/portfolio-2-ph.webp'
-let gif = mockupGif1.src
 
 export default function Home() {
     return (
@@ -61,14 +59,15 @@ export default function Home() {
                                     including multiple login methods such as IP authentication and URL-based automatic logins, as well as 
                                     the ability to link multiple subscriber accounts to a single administrator account.`,
                                     Placeholder: portfolio_placeholder1.src,
-                                    Gif: mockupGif1.src    
+                                    Mp4: '/movies/portfolio-1.mp4',
+                                    Webm: '/movies/portfolio-1.webm'   
                                 },
                                 card2: {
                                         Title: 'Brochure Website',
                                         Description: `Here is an example of a simple brochure site built in WordPress. 
                                         This project was in collaboration with a graphic designer and is a pixel perfect rendering of a mockup built in Figma.`,
                                         Placeholder: portfolio_placeholder2.src,
-                                        Gif: mockupGif2.src    
+                                        Mp4: '/movies/portfolio-2.mp4',
                                     }
                                 }}
                             />
