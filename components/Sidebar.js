@@ -69,7 +69,7 @@ export default function SideBar() {
                   <h6>Hubl</h6>
                 </div>
                 <div className="pc_col-12">
-                  <h6>excel, vba</h6>
+                  <h6>Excel, VBA, R</h6>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function SideBar() {
             <div className="pc_contact-child pc_space_evenly">
               <div className="pc_row">
                 <div className="pc_col-12">
-                  <h6>React, WordPress, HubSpot</h6>
+                  <h6>WordPress, HubSpot, React, Next.js, Nuxt, Vue.js, </h6>
                 </div>
             </div>
           </div>

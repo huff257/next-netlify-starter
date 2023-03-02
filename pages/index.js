@@ -4,10 +4,15 @@ import Sidebar from '@components/Sidebar'
 import Hero from '@components/Hero'
 import Experience from '@components/Experience'
 import Cards from '@components/Cards'
+import Work from '@components/Work'
 
 import favicon from '../public/images/icons8-developer-64.png'
 
-
+import mockupGif1 from '../public/gifs/portfolio_1.gif'
+import portfolio_placeholder1 from '../public/images/portfolio_placeholder_1.webp'
+import mockupGif2 from '../public/gifs/portfolio_2.gif'
+import portfolio_placeholder2 from '../public/images/portfolio-2-ph.webp'
+let gif = mockupGif1.src
 
 export default function Home() {
     return (
@@ -32,17 +37,41 @@ export default function Home() {
                                 content={{
                                     card1: {
                                         Title: 'Theme Development',
-                                        Description: 'I build custom themes in WordPress and HubSpot CMS. My themes are optimized for site speed and are made to be easily edited by non-technical users such as marketers and site owners.'
+                                        Description: 'As a developer, I specialize in crafting bespoke WordPress and HubSpot CMS themes. My deliverables prioritize site speed optimization while ensuring accessibility to non-technical users such as marketing professionals and website owners, who require uncomplicated editing capabilities.'
                                     },
                                     card2: {
                                         Title: 'SEO',
-                                        Description: 'As Google continues to improve its ranking algorithms I adhere to their recommended best practices. I pay attention to the details so that my sites meet and exceed performace standards, are mobile friendly, and are friendly to users of all different backgrounds and abilities.'
+                                        Description: `In light of Google's ongoing efforts to refine its ranking algorithms, I conscientiously abide by their prescribed best practices. I diligently attend to particulars in order to ensure that my websites not only meet, but surpass performance standards. Additionally, I strive to make them compatible with mobile devices and accessible to users from all walks of life, regardless of background or ability.`
                                     },
                                     card3: {
                                         Title: 'Project Management',
-                                        Description: 'I enjoy working with people and have demonstrated the ability to lead teams, meet deadlines, and keep clients happy. As a former Officer in the US Army I am an experienced and well-trained leader who is able to adapt to the people around me.'
+                                        Description: 'Collaborating with individuals is one of the joys of my career, as I relish the challenge of leading teams, ensuring timely project delivery, and satisfying clients. My tenure as an Officer in the US Army has honed my leadership skills, allowing me to expertly adjust my style to connect with various personalities. My experience and training have transformed me into a versatile leader who can effortlessly navigate diverse teams and environments.'
                                     }
                                 }} />
+                            <Work 
+                              title="Samples Of My Work"
+                              size="48%"
+                              addClass='work_section'
+                              content={{
+                                card1: {
+                                    Title: 'Custom Functionality',
+                                    Description: `I had the opportunity to collaborate with a graphic designer and another 
+                                    developer in building a website for our client, who operates a unique business and caters 
+                                    to a highly diverse user base, ranging from 7 to 77 years of age. Our client had specific requirements, 
+                                    including multiple login methods such as IP authentication and URL-based automatic logins, as well as 
+                                    the ability to link multiple subscriber accounts to a single administrator account.`,
+                                    Placeholder: portfolio_placeholder1.src,
+                                    Gif: mockupGif1.src    
+                                },
+                                card2: {
+                                        Title: 'Brochure Website',
+                                        Description: `Here is an example of a simple brochure site built in WordPress. 
+                                        This project was in collaboration with a graphic designer and is a pixel perfect rendering of a mockup built in Figma.`,
+                                        Placeholder: portfolio_placeholder2.src,
+                                        Gif: mockupGif2.src    
+                                    }
+                                }}
+                            />
                             <Cards
                                 title="Work History"
                                 size='100%'
@@ -51,8 +80,9 @@ export default function Home() {
                                     histCard1: {
                                         Title: 'Precision creative',
                                         Subtitle: 'Director of Web Development',
-                                        Date: 'July 2018 - Current',
-                                        Description: 'Built and maintained over one hundred websites. Promoted to Director of Web Development after one year. Led a team of developers, content creators, and graphic designers. Overhauled the entire development process transitioning the company away from using prebuilt templates to building custom websites resulting in better site speed and performance. Implemented a structured client onboarding and communication process resulting in improved customer satisfaction and quicker project turnaround times.'
+                                        Date: 'July 2019 - Current',
+                                        Description: `As Director of Web Development, I successfully built and maintained a portfolio of over one hundred custom and scalable websites. In my first year, I was promoted to this position and led a team of developers, content creators, and graphic designers. As part of my duties, I overhauled the entire development process, transitioning the company away from prebuilt templates to custom website design resulting in improved site speed, performance, and maintainability. Additionally, I implemented a structured client onboarding and communication process, resulting in improved customer satisfaction and quicker project turnaround times.
+                                        In designing websites, I adhered to SEO best practices and developed user-friendly web forms with validation and error handling. I reviewed code to ensure that structures were valid, assessed security, and verified browser, device, and operating system compatibility. To increase site traffic, I developed user-oriented visuals and features using front-end languages such as HTML, CSS, JavaScript, and jQuery. I also delivered user support to clients to train, educate, and answer questions, and discussed site requirements to produce actionable development plans.`
                                     },
                                     histCard2: {
                                         Title: 'Hughes Media',
@@ -76,7 +106,7 @@ export default function Home() {
                                         Title: 'Transportation Officer ',
                                         Subtitle: 'United States Army Reserve',
                                         Date: 'March 2005 - August 2013',
-                                        Description: 'Served in a variety of roles from ranks E-2 (Private 2nd Class) through O-2 (First Lieutenant) excelling in all positions. Deployed to Kandahar, Afghanistan from March 2011 to January 2012. Served as Container Management OIC within a Battalion forward Operations Cell. Led a team of seven transportation soldiers and was responsible for identification and reporting of frustrated cargo throughout Afghanistan.'
+                                        Description: 'Served in various roles from ranks E-2 (Private 2nd Class) through O-2 (First Lieutenant) excelling in all positions. Deployed to Kandahar, Afghanistan from March 2011 to January 2012. Served as Container Management OIC within a Battalion forward Operations Cell. Led a team of seven transportation soldiers and was responsible for identification and reporting of frustrated cargo throughout Afghanistan.'
                                     },
                                 }} />
                             <Cards
@@ -88,21 +118,25 @@ export default function Home() {
                                         Title: 'M.S. Cognitive And Behavioral Sciences',
                                         Subtitle: 'Auburn University ',
                                         Date: 'May 2015',
+                                        Description: `Studied human judgment and decision making. TA'd and taught labs for Intro to Psychology, Research Methods, and Game Theory Courses. Conducted various research projects and developed a deep understanding of best research practices.`
                                     },
                                     edCard2: {
                                         Title: 'B.S Pyschology',
                                         Subtitle: 'University of South Carolina Upstate',
                                         Date: 'December 2009',
+                                        Description: 'Was awarded a full ROTC Scholarship. Maintained a 3.9+ GPA during my Junior and Senior years while participating in ROTC, serving in the Army Reserve, and holding a part-time job.'
                                     },
                                     edCard3: {
                                         Title: 'HubSpot CMS Developer Certification',
                                         Subtitle: 'HubSpot Academy',
                                         Date: 'July 2021',
+                                        Description: `Since becoming HubSpot CMS Certified I've developed two websites in HubSpot professionally and many more landing pages, blog templates, and blog posts.`
                                     },
                                     edCard4: {
                                         Title: 'JavaScript Algorithms and Data Structures Certification',
                                         Subtitle: 'FreeCodeCamp',
                                         Date: 'November 2022',
+                                        Description: `In an effort to broaden my skillset I took a course in javascript and have since put that skill to use on this site which was built in Next.js.`
                                     },
                                 }} />
                         </div>
