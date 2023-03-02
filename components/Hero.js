@@ -16,7 +16,7 @@ export default function Hero() {
               <div className="typewriter_l3 animation_delay">maintained websites.</div>
               <>{'</code>'}</>
             </div>
-            <div className="button_container hero_button"><a className="pc_button" href="/assets/PDFs/Kyle_Huffling_Resume.pdf" traget="_blank">Download Resume</a></div>
+            <div className="button_container hero_button"><a className="pc_button" href="/assets/PDFs/Kyle_Huffling_Resume.pdf" target="_blank">Download Resume</a></div>
           </div>
         </div>
       </div>
