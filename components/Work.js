@@ -13,7 +13,7 @@ export default function Work({ title, size, addClass, content }) {
                   <div className="skills_text_wrapper">
                     <div className="pc_row justify-spc-btwn">
                       <div className="work-wrapper">
-                        <img className="static-hover" src={deviceMockup.src}></img>
+                        <img width="auto" height="auto" className="static-hover" src={deviceMockup.src}></img>
                         <div class="static_wrapper">
                           <img width="auto" height="auto" className="static" src={key['Placeholder']}></img>
                         </div>
