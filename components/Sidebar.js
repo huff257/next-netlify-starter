@@ -12,7 +12,7 @@ export default function SideBar() {
         <div className="close-btn" onClick={closeMenu}></div>
         <div className="fixed_col pc_center_align bg_white neg_margin intro">
           <div className="pc_img_wrapper">
-            <img width="130" height="130" src={profilePic.src} />
+            <img width="130" height="130" src={profilePic.src} title="headshot" alt="Kyle Huffling Web Developer Profile Pic"/>
             <span className="pulse"></span>
           </div>
           <h5 className="name">Kyle Huffling</h5>
