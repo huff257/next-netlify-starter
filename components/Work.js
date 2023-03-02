@@ -15,7 +15,7 @@ export default function Work({ title, size, addClass, content }) {
                       <div className="work-wrapper">
                         <img className="static-hover" src={deviceMockup.src}></img>
                         <div class="static_wrapper">
-                          <img className="static" src={key['Placeholder']}></img>
+                          <img width="auto" height="auto" className="static" src={key['Placeholder']}></img>
                         </div>
                         <div className="gif_wrapper">
                           <video
