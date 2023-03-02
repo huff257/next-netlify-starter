@@ -24,13 +24,13 @@ export default function SideBar() {
             <div className="pc_contact-child">
               <h5>Email:</h5>
               <div>
-                <p><a href="mailto: huff257@gmail.com">huff257@gmail.com</a></p>
+                <p><a className="simple-link" href="mailto: huff257@gmail.com">huff257@gmail.com</a></p>
               </div>
             </div>
             <div className="pc_contact-child">
               <h5>Phone:</h5>
               <div>
-                <p><a href="tel: 8643604227">(864) 360-4227</a></p>
+                <p><a className="simple-link" href="tel: 8643604227">(864) 360-4227</a></p>
               </div>
             </div>
             <div className="pc_contact-child">
@@ -87,10 +87,10 @@ export default function SideBar() {
             <div className="fixed_col pc_white neg_margin fixed_bottom">
               <div className="pc_contact-child pc_space_evenly">
                 <div className="pc_logo-child">
-                  <h6><a href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
+                  <h6><a className="simple-link" href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
                 </div>
                 <div className="pc_logo-child">
-                  <h6><a href="/assets/PDFs/Kyle_Huffling_Resume.pdf" target="_blank">Resume PDF</a></h6>
+                  <h6><a className="simple-link" href="/assets/PDFs/Kyle_Huffling_Resume.pdf" target="_blank">Resume PDF</a></h6>
                 </div>
             </div>
           </div>

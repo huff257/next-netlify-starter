@@ -394,7 +394,7 @@
         }
 
         .fixed_bottom {
-            background-color: #777777;
+            background: linear-gradient(359deg, #000, #5f5f5f);
             border: none;
             box-shadow: 0px -2px 3px 0 rgb(15 15 20 / 0%);
             position: absolute;
@@ -447,8 +447,17 @@
         }
 
         .pc_button {
-            background-color: var(--main-color);
+            background: linear-gradient(179deg, #0053e0, #22509e);
             padding: 15px 30px;
+        }
+
+        .pc_button:hover {
+            background: linear-gradient(179deg, #22509e, #0053e0);
+            transition-duration: 1s;
+        }
+
+        .simple-link:hover{
+            text-decoration: underline;
         }
 
         .pc_box_shadow {
