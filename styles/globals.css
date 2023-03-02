@@ -581,12 +581,12 @@
         }
 
         .history_date {
-            background-color: rgba(30, 30, 40, 0.5);
+            background: linear-gradient(359deg,#000,#5f5f5f);
             color: #fff;
             width: max-content;
             margin-left: auto;
             padding: 5px 10px;
-            border-radius: 10px;
+            border-radius: 3px;
         }
 
         .job_title {
