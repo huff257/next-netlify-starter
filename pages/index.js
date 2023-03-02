@@ -60,7 +60,8 @@ export default function Home() {
                                     the ability to link multiple subscriber accounts to a single administrator account.`,
                                     Placeholder: portfolio_placeholder1.src,
                                     Mp4: '/movies/portfolio-1.mp4',
-                                    Webm: '/movies/portfolio-1.webm',                                        
+                                    Webm: '/movies/portfolio-1.webm',
+                                    DesktopAlt: 'Portfolio 1 device background',                                        
                                     PosterAlt: 'Functionality Website thumbnail',
                                     Postertitle: 'Functionality Website Thumbnail'    
                                 },
@@ -70,6 +71,7 @@ export default function Home() {
                                         This project was in collaboration with a graphic designer and is a pixel perfect rendering of a mockup built in Figma.`,
                                         Placeholder: portfolio_placeholder2.src,
                                         Mp4: '/movies/portfolio-2.mp4',
+                                        DesktopAlt: 'Portfolio 2 device background',
                                         PosterAlt: 'Brochure Website thumbnail WordPress',
                                         Postertitle: 'Brochure Thumbnail' 
                                     }

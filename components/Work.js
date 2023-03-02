@@ -13,7 +13,7 @@ export default function Work({ title, size, addClass, content }) {
                   <div className="skills_text_wrapper">
                     <div className="pc_row justify-spc-btwn">
                       <div className="work-wrapper">
-                        <img width="auto" height="auto" className="static-hover" src={deviceMockup.src}></img>
+                        <img width="auto" height="auto" className="static-hover" src={deviceMockup.src} alt={key['DesktopAlt']} title={key['DesktopTitle']}></img>
                         <div class="static_wrapper">
                           <img width="auto" height="auto" className="static" src={key['Placeholder']} alt={key['PosterAlt']} title={key['PosterTitle']}></img>
                         </div>
