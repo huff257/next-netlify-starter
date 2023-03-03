@@ -906,7 +906,7 @@
             top: 12px;
         }
 
-        .skills_card:last-child .static_wrapper{
+        .skills_card:nth-child(2) .static_wrapper{
             transform: scaleY(1.02);
             top: 15px;
         }
@@ -935,3 +935,7 @@
             opacity: 0;
         }
 
+        .portfolio{
+            width: 100%;
+            max-width: 100%;
+        }

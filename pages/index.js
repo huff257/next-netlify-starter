@@ -9,8 +9,8 @@ import Work from '@components/Work'
 import favicon from '../public/images/icons8-developer-64.png'
 
 import portfolio_placeholder1 from '../public/images/portfolio_placeholder_1.webp'
-import mockupGif2 from '../public/gifs/portfolio_2.gif'
 import portfolio_placeholder2 from '../public/images/portfolio-2-ph.webp'
+import portfolio_placeholder3 from '../public/images/Portfolio-site.webp'
 
 export default function Home() {
     return (
@@ -73,9 +73,18 @@ export default function Home() {
                                         Mp4: '/movies/portfolio-2.mp4',
                                         DesktopAlt: 'Portfolio 2 device background',
                                         PosterAlt: 'Brochure Website thumbnail WordPress',
-                                        Postertitle: 'Brochure Thumbnail' 
-                                    }
-                                }}
+                                        Postertitle: 'Brochure Thumbnail',
+ 
+                                    },
+                                card3: {
+                                        Title: 'Portfolio Site',
+                                        Description: `Is this cheating? Maybe a little, but to be fair I'm doing it to demonstrate a point and I couldn't resist a chance to be meta on my own website. I have many other examples of my work I can share with you I promise. `,
+                                        Placeholder: portfolio_placeholder3.src,
+                                        PosterAlt: 'Portfolio Website thumbnail WordPress',
+                                        Postertitle: 'portfolio Thumbnail',
+ 
+                                    }   
+                            }}
                             />
                             <Cards
                                 title="Work History"

@@ -1,5 +1,5 @@
 import deviceMockup from '../public/images/desktop_device.webp'
-
+import fallback from '../public/images/winning.webp'
 
 export default function Work({ title, size, addClass, content }) {
 
@@ -8,6 +8,7 @@ export default function Work({ title, size, addClass, content }) {
         <h2>{title}</h2>
         <div className="pc_row">
           {Object.values(content).map((key, index) => {
+            if(key['Mp4']){
               return (
                 <div className="skills_card bg_white pc_box_shadow" style={{ flexGrow: 0, flexShrink: 0, flexBasis: size, maxWidth: size }}>
                   <div className="skills_text_wrapper">
@@ -21,7 +22,7 @@ export default function Work({ title, size, addClass, content }) {
                           <video
                             autoPlay loop muted playsInline>
                             <source src={key['Mp4']} type="video/mp4" />                         
-                          </video>
+                          </video>                  
                         </div>
                       </div>
                     </div>
@@ -30,7 +31,22 @@ export default function Work({ title, size, addClass, content }) {
                   </div>
                 </div>
               )
-          })}
+            }else{
+              return (
+                <div className="skills_card bg_white pc_box_shadow" style={{ flexGrow: 0, flexShrink: 0, flexBasis: size, maxWidth: size }}>
+                  <div className="skills_text_wrapper">
+                    <div className="pc_row justify-spc-btwn">
+                      <div className="work-wrapper">
+                          <img className="portfolio" width="auto" height="auto" src={key['Placeholder']} alt={key['PosterAlt']} title={key['PosterTitle']}></img>
+                      </div>
+                    </div>
+                    <h3>{key['Title']}</h3>
+                    <p>{key['Description']}</p>
+                  </div>
+                </div>
+              )
+            }
+         })}
         </div>
       </section>
     )
