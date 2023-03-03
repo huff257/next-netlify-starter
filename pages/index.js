@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className="container-all">
             <Head>
-                <title>Kyle Huffling - Portfolio</title>
+                <title>Kyle Huffling - Web Developer/Project Manager</title>
                 <link rel="icon" href={favicon.src} />
                 <meta name="Description" content="Client-focused developer who builds well optimized and easily maintained websites."/>
             </Head>
