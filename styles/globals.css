@@ -607,7 +607,7 @@
                 padding: 20px;
             }
             .history_date {
-                background-color: #ffff;
+                background: #ffff;
                 color: #000000a6;
                 width: max-content;
                 margin-left: 0;
@@ -643,6 +643,12 @@
             .history_col-2 {
                 flex: 0 0 100%;
                 max-width: 100%;
+            }
+            .static-hover{
+                display: none;
+            }
+            .gif_wrapper{
+                position: relative;
             }
         }
 
@@ -711,7 +717,7 @@
             position: absolute;
             height: 4px;
             width: 100%;
-            background: var(--main-color);
+            background: #000;
             border-radius: 0px;
             opacity: 1;
             left: 0;
@@ -938,4 +944,16 @@
         .portfolio{
             width: 100%;
             max-width: 100%;
+        }
+
+        @media only screen and (max-width: 450px) {
+            .gif_wrapper{
+                position: relative;
+            }
+            .gif_wrapper video{
+                width: 100%;
+            }
+            .static_wrapper{
+                display: none;
+            }
         }
