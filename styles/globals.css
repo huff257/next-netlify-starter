@@ -447,12 +447,12 @@
         }
 
         .pc_button {
-            background: linear-gradient(179deg, #0053e0, #22509e);
+            background: linear-gradient(179deg,#0053e0,#053c9a);
             padding: 15px 30px;
         }
 
         .pc_button:hover {
-            background: linear-gradient(179deg, #22509e, #0053e0);
+            background: linear-gradient(179deg, #053c9a, #0053e0);
             transition-duration: 1s;
         }
 
