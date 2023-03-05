@@ -16,6 +16,7 @@ export default function lazyLoad(){
             video.target.load();
             video.target.classList.remove("lazy");
             lazyVideoObserver.unobserve(video.target);
+            console.log(lazyVideos)
         }
         });
     });

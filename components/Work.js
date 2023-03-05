@@ -16,13 +16,13 @@ export default function Work({ title, size, addClass, content }) {
                     <div className="pc_row justify-spc-btwn">
                       <div className="work-wrapper">
                         <img width="auto" height="auto" className="static-hover" src={deviceMockup.src} alt={key['DesktopAlt']} title={key['DesktopTitle']}></img>
-                        <div class="static_wrapper">
+                        <div className="static_wrapper">
                           <img width="auto" height="auto" className="static" src={key['Placeholder']} alt={key['PosterAlt']} title={key['PosterTitle']}></img>
                         </div>
                         <div className="gif_wrapper">
                           <video
                             autoPlay loop muted playsInline
-                            class="lazy">
+                            className="lazy">
                             <source src={key['Mp4']} type="video/mp4" />                         
                           </video>                  
                         </div>
