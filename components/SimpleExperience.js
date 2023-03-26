@@ -4,7 +4,7 @@ export default function SimpleExperience({num_years, type}) {
             <div className="special_number_wrapper">
               <div className="special_number">{num_years}+</div>
               <div className="special_number_text">
-                Years of professional <br /> {type}
+                Years of Professional <br /> {type}
               </div>
             </div>
           )
