@@ -90,7 +90,7 @@ export default function SideBar() {
                   <h6><a className="simple-link" href="https://www.linkedin.com/in/kyle-huffling-619b9511a/" target="_blank">Linkedin</a></h6>
                 </div>
                 <div className="pc_logo-child">
-                  <h6><a className="simple-link" href="/assets/PDFs/Kyle_Huffling_Resume.pdf" target="_blank">Resume PDF</a></h6>
+                  <h6><a className="simple-link" href="https://github.com/huff257" target="_blank">GitHub</a></h6>
                 </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function Experience() {
       num_years: 4
     },
     exp1: {
-      type: 'Development',
+      type: 'Database and Web Development',
       num_years: 6
     }
   }

@@ -25,4 +25,5 @@ export default function lazyLoad(){
         lazyVideoObserver.observe(lazyVideo);
     });
     }
+    console.log('hey')
 }
