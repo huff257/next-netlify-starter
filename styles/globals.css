@@ -642,9 +642,6 @@
                 flex: 0 0 100%;
                 max-width: 100%;
             }
-            .static-hover{
-                display: none;
-            }
             .gif_wrapper{
                 position: relative;
             }
@@ -942,6 +939,7 @@
         .portfolio{
             width: 100%;
             max-width: 100%;
+            object-fit: contain;
         }
 
         @media only screen and (max-width: 991px) {
@@ -956,10 +954,12 @@
 
         @media only screen and (max-width: 550px) {
             .gif_wrapper{
-                position: relative;
+                top: 6px;
             }
-            .gif_wrapper video{
-                width: 100%;
+            .gif_wrapper video, .static{
+                margin: auto;
+                width: 80%;
+                height: 100%;
             }
             .lazyVideo, .noVideo{
                 flex-basis: 100% !important;

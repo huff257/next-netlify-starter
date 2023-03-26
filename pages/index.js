@@ -161,7 +161,7 @@ export default function Home() {
                                         subtitle='University of South Carolina Upstate'
                                         size="48%"
                                         date='December 2019'
-                                        description='Served primarily as project manager for a medium sized software development company with some duties as a developer. Responsible for ensuring application builds and software enhancements progress as quickly as possible while meeting customer requirements and budgetary constraints.'
+                                        description=''
                                     />
                                     <SimpleCard
                                         title= 'JavaScript Algorithms and Data Structures Certification'
