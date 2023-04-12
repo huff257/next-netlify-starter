@@ -160,7 +160,7 @@ export default function Home() {
                                         title= 'B.S Pyschology'
                                         subtitle='University of South Carolina Upstate'
                                         size="48%"
-                                        date='December 2019'
+                                        date='December 2009'
                                         description=''
                                     />
                                     <SimpleCard
